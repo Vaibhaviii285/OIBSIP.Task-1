@@ -1,4 +1,4 @@
-Fraud Detection Using Machine Learning
+Fraud Detection 
 
 Project Overview
 Fraud detection is a critical application of data science used to identify suspicious or
