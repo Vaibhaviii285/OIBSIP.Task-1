@@ -1,18 +1,79 @@
- Fraud Detection Project
+Fraud Detection Using Machine Learning
 
-This project demonstrates a Machine Learning approach to detect fraudulent credit card transactions.
+Project Overview
+Fraud detection is a critical application of data science used to identify suspicious or
+unauthorized activities in financial transactions.  
+This project focuses on detecting fraudulent transactions using data preprocessing,
+exploratory analysis, and machine learning techniques.
+
+The goal is to build a reliable model that can distinguish between legitimate and fraudulent
+transactions while handling class imbalance and noisy data.
+
+---
+
+Objectives
+- Analyze transactional data to identify fraud patterns
+- Clean and preprocess raw data
+- Handle class imbalance
+- Build and evaluate machine learning models for fraud detection
+- Improve model performance using feature engineering
+
+---
 
  Dataset
-- Kaggle Credit Card Fraud Detection: [https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+- Source: Kaggle
+- Example Dataset:
+  - Credit Card Fraud Detection Dataset
+    
+---
 
- Libraries
-- numpy, pandas, matplotlib, seaborn
-- scikit-learn, xgboost, imbalanced-learn, joblib
+Tools & Technologies
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook / VS Code
 
- Features
-- Data preprocessing and handling class imbalance (SMOTE)
-- ML models: Logistic Regression, Random Forest, XGBoost
-- Model evaluation: Confusion matrix, classification report, ROC-AUC
-- Feature importance visualization
-- Model saved for deployment
+---
+
+Project Workflow
+
+Data Exploration
+- Dataset shape and structure
+- Class distribution analysis
+- Statistical summary
+
+Data Cleaning
+- Handling missing values
+- Removing duplicates
+- Feature scaling
+
+Exploratory Data Analysis (EDA)
+- Transaction distribution
+- Fraud vs non-fraud comparison
+- Correlation analysis
+
+Handling Class Imbalance
+- Resampling techniques (SMOTE / undersampling)
+- Evaluation using appropriate metrics
+
+Model Building
+- Logistic Regression
+- Random Forest
+- Decision Tree
+
+Model Evaluation
+- Confusion Matrix
+- Precision, Recall, F1-score
+- ROC-AUC Score
+
+---
+
+ Results
+- Improved fraud detection accuracy
+- High recall achieved for fraudulent transactions
+- Balanced model performance on imbalanced data
+
 
